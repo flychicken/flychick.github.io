@@ -294,3 +294,5 @@ defaults:
       share: true
       related: true
 discourse : 강화, 담론, 강연, 설교, 연설
+
+theme: jekyll-theme-midnight
