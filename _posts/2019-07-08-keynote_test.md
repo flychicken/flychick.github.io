@@ -1,5 +1,6 @@
 ---
 layout:     keynote
+iframe:     "http://huangxuan.me/js-module-7day/"
 title:      "키노트 테스트"
 subtitle:   "Keynote Test"
 date:       2019-07-08 17:43:00
