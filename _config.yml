@@ -4,8 +4,8 @@ auther: Taesoeng Kim
 SEOTitle: 날고 싶은 병아리의 블로그
 header-img: assets/theme/home-bg.jpg
 email: flychicken@gmail.com
-description: "关于技术、产品、生活、思考 | Life Lovers / Engineer"
-keyword: "StuartHua, 产品, 技术, 生活, 思考, Life Lovers, Engineer"
+description: "DBMS, Python, Data Science등 IT 주제를 다루는 블로그"
+keyword: "DBMS, TIBERO, Python, Data Science, RL"
 url: "https://flychicken.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -45,7 +45,7 @@ disqus_username: disqus_ogFVIoWCtY
 # ba_track_id: 15604eac1992a89871cd85f2cd425d50
 
 # Google Analytics
-# ga_track_id: 'UA-xxxxxxx-xx'            # Format: UA-xxxxxx-xx
+ga_track_id: 'UA-143376103-1'            # Format: UA-xxxxxx-xx
 # ga_domain: xxxxx.com
 
 
