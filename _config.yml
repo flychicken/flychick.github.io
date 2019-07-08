@@ -54,7 +54,7 @@ ga_track_id: 'UA-143376103-1'            # Format: UA-xxxxxx-xx
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Rethink to be Better!"
+sidebar-about-description: "두려워 말고 시작하자!"
 sidebar-avatar: /assets/theme/avatar-stuart.jpg  # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
