@@ -1,7 +1,15 @@
-# Created by https://www.gitignore.io/api/jekyll
-### Jekyll ###
-_site/
-.sass-cache/
-.jekyll-cache/
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+
+*.swp
+_site
+.sass-cache
 .jekyll-metadata
-# End of https://www.gitignore.io/api/jekyll
+.MWebMetaData
+node_modules
+npm-debug.log
+
+.htaccess
+.user.ini
+.well-known/
