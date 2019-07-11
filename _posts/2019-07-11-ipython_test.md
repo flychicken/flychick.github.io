@@ -313,7 +313,7 @@ msno.matrix(df=df_train.iloc[:, :], figsize=(8, 8), color=(0.8, 0.5, 0.2))
 
 
 
-![png](output_6_1.png)
+![png](/img/output_6_1.png)
 
 
 [이미지 테스트](http://naver.com)
