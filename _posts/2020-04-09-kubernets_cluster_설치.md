@@ -4,9 +4,12 @@ title:      "Kubernetes Cluster 설치"
 subtitle:   "kubernetes"
 date:       2020-04-09 17:41:00
 author:     "Taeseong Kim"
-header-img: "https://images.unsplash.com/photo-1470645792662-dd18394f8c97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+header-img: "[img/home-bg_bak.jpg](https://images.unsplash.com/photo-1470645792662-dd18394f8c97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)"
 tags:
     - kubernetes
 ---
 
 테스트 123
+
+
+# Header-img Test
