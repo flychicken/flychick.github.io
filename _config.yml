@@ -1,11 +1,11 @@
 # Site settings
-title: 날고 싶은 병아리의 블로그
+title: 날아라병아리
 auther: Taesoeng Kim
-SEOTitle: 날고 싶은 병아리의 블로그
+SEOTitle: 날아라병아리
 header-img: assets/theme/home-bg.jpg
 email: flychicken@gmail.com
 description: "DBMS, Python, Data Science등 IT 주제를 다루는 블로그"
-keyword: "DBMS, TIBERO, Python, Data Science, RL"
+keyword: "DBMS, Python, Data Science, RL"
 url: "https://flychicken.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -54,7 +54,7 @@ ga_track_id: 'UA-143376103-1'            # Format: UA-xxxxxx-xx
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "두려워 말고 시작하자!"
+sidebar-about-description: "심심할때 마다 끄적!"
 sidebar-avatar: /assets/theme/avatar-stuart.jpg  # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
