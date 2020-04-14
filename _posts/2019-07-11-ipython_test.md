@@ -1,14 +1,13 @@
 ---
-layout:     post
 title:      "iPython 테스트"
-subtitle:   "iPython 포스팅을 위한 테스트"
 date:       2019-07-11 17:41:00
-author:     "Taeseong Kim"
-header-img: "img/home-bg_bak.jpg"
+categories:
+  - python
 tags:
     - ipython
     - jupyter
 ---
+
 
 ```python
 import numpy as np
