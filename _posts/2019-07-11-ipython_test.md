@@ -1,6 +1,6 @@
 ---
-title:      "iPython 테스트"
-date:       2019-07-11 17:41:00
+title: "iPython 테스트"
+date: 2019-07-11 17:41:00
 categories:
   - python
 tags:
