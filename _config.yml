@@ -1,113 +1,115 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-title: 날아라병아리
-auther: Taesoeng Kim
-SEOTitle: 날아라병아리
-header-img: assets/theme/home-bg.jpg
-email: flychicken@gmail.com
-description: "DBMS, Python, Data Science등 IT 주제를 다루는 블로그"
-keyword: "DBMS, Python, Data Science, RL"
-url: "https://flychicken.github.io"              # your host, for absolute URL
-baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
-
-
-# SNS settings
-RSS: true
-# weibo_username: 339719222
-# zhihu_username: stuarthua
-github_username: flychicken
-#twitter_username: flychicken@gmail.com
-facebook_username: flychicken1020
-# linkedin_username:  firstname-lastname-idxxxx
-
-
-# Friends settings
-# friends: [
-#     {
-#         title: "Stuart Hua",
-#         href: "https://blog.stuarthua.com"
-#     },{
-#         title: "Github",
-#         href: "https://github.com"
-#     }
-# ]
-
-
-# Disqus settings
-disqus_username: flychicken-1
-
-
-# Netease settings
-# netease_comment: false
-
-
-# Analytics settings
-# Baidu Analytics
-# ba_track_id: 15604eac1992a89871cd85f2cd425d50
-
-# Google Analytics
-ga_track_id: 'UA-143376103-1'            # Format: UA-xxxxxx-xx
-# ga_domain: xxxxx.com
-
-
-# Google Adsense settings
-# google_ad_client: 'xxxxxxx-xxxxx-xx'
-
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "심심할때 마다 끄적!"
-sidebar-avatar: /assets/theme/avatar-stuart.jpg  # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
-# *********************************************************************** #
-# ************************  以下内容，尽量不做更改  ************************* #
-# *********************************************************************** #
-
-
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-plugins: [jekyll-paginate, rouge]
-
-
-# Publish posts or collection documents with a future date.
-future: true
-
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: MM
+email:
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+twitter_username: username
+github_username: username
+minimal_mistakes_skin: default
+search: true
 
 # Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
-permalink: pretty
-paginate: 10
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-# If you have timezone issue (e.g. #68) in China, uncomment to use this:
-#timezone: CN
-
-
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
-kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
-highlighter: rouge
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-
-# Progressive Web Apps
-chrome-tab-theme-color: "#000000"
-service-worker: false
-
+include:
+  - _pages
 
 # Exclude from processing.
-exclude:
-  - less
-  - node_modules
-  - Gruntfile.js
-  - package.json
-  - LICENSE
-  - README.md
-  - screenshot.jpg
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+author:
+  name   : "First Lastname"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "My awesome biography constrained to a sentence or two goes here."
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/

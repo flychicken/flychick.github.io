@@ -1,90 +1,27 @@
-# jekyll-hux-theme
+# Minimal Mistakes remote theme starter
 
->clean style theme
+Fork this repo for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
 
-![Screenshot](/screenshot.jpg)
+Contains basic configuration to get you a site with:
 
-## 参考
+- Sample posts.
+- Sample top navigation.
+- Sample author sidebar with social links.
+- Sample footer links.
+- Paginated home page.
+- Archive pages for posts grouped by year, category, and tag.
+- Sample about page.
+- Sample 404 page.
+- Site wide search.
 
-* [Huxpro](https://github.com/Huxpro/huxpro.github.io)
-* [jekyll-search](https://github.com/androiddevelop/jekyll-search)
+Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
 
-## Installation
+---
 
->make sure that you have already installed `ruby`, `jekyll`, [jekyll-installation](http://wiki.jikexueyuan.com/project/jekyll/installation.html)
+## Troubleshooting
 
-1. To install a theme, first, clone it to your dir
+If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
 
-    ```
-    $ git clone git@github.com:stuarthua/jekyll-hux-theme.git
-    $ gem install jekyll-paginate rouge
-    ```
-
-2. Then, custom config file `_config.yml`:
-    
-    ```
-    # Site settings
-    title: Stuart Hua's Blog
-    auther: Stuart Hua
-    SEOTitle: Stuart Hua's Blog
-    header-img: img/home-bg.jpg
-    email: stuarthua.cn@gmail.com
-    description: "关于技术、产品、生活 | Stuard Hua, Engineer"
-    keyword: "产品, 技术, 生活"
-    url: "https://blog.stuarthua.com"              # your host, for absolute URL
-    baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
-
-
-    # SNS settings
-    RSS: true
-    # weibo_username: 339719222
-    # zhihu_username: stuarthua
-    github_username: stuarthua
-    twitter_username: stuarthua_sir
-    facebook_username: stuarthua.sir
-    # linkedin_username:  firstname-lastname-idxxxx
-
-
-    # Friends settings
-    friends: [
-        {
-            title: "Stuart Hua",
-            href: "https://blog.stuarthua.com"
-        },{
-            title: "Github",
-            href: "https://github.com"
-        }
-    ]
-
-
-    # Disqus settings
-    # disqus_username: stuarthua
-
-
-    # Netease settings
-    # netease_comment: false
-
-
-    # Analytics settings
-    # Baidu Analytics
-    # ba_track_id: 15604eac1992a89871cd85f2cd425d50
-
-    # Google Analytics
-    # ga_track_id: 'UA-55082727-2'            # Format: UA-xxxxxx-xx
-    # ga_domain: stuarthua.com
-
-
-    # Google Adsense settings
-    # google_ad_client: 'ca-pub-6137478455292280'
-
-    # Sidebar settings
-    sidebar: true                           # whether or not using Sidebar.
-    sidebar-about-description: "Rethink to be Better!"
-    sidebar-avatar: /img/avatar-stuart.jpg  # use absolute URL, seeing it's used in both `/` and `/about/`
-    ```
-
-3. Config `about` on `/_includes/about/zh.md`, `/_includes/about/en.md`
-    
-## License
-
-This project is licensed under the [MIT license](http://opensource.org/licenses/MIT).
+- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
+- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
+- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
