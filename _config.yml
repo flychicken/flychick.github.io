@@ -23,6 +23,7 @@ twitter_username: username
 github_username: flychicken
 minimal_mistakes_skin: default
 search: true
+locale: ko-KR
 
 # Build settings
 markdown: kramdown
