@@ -60,7 +60,7 @@ plugins:
 
 author:
   name   : "Taesoeng Kim"
-  avatar : "/assets/images/avatar-stuart.jpg"
+  avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
